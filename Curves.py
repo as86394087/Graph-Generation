@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-import jupyter
 
 f = pd.read_excel('20210708163034-10A.xlsx',usecols=[0,1,2,3])
 x1 = f['Time']
